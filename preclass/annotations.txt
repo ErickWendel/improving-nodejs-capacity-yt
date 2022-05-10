@@ -1,0 +1,26 @@
+create simple-server 
+npm init -y 
+npm i -D autocannon
+package.json
+  add type: module
+touch server.js 
+  add all 
+  add process.on(SIGINT)
+
+package.json 
+  test: 
+  start 
+
+run both, save results on a txt file 
+
+cp -r simple-server cluster-example
+
+touch index.js 
+  all 
+
+run npm t 
+
+copy results and compare with simple-server benchmark 
+
+htop and filter by cluster 
+kill some process during the stress test 

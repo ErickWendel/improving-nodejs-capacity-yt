@@ -1,0 +1,17 @@
+{
+  "name": "simple-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "npx autocannon -c 500 -d 30 --workers 10 --renderStatusCodes --latency --warmup [ -c 1 -d 2 ] localhost:3000"
+  },
+  "keywords": [],
+  "author": "erickwendel",
+  "license": "ISC",
+  "devDependencies": {
+    "autocannon": "^7.8.1"
+  }
+}

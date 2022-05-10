@@ -1,0 +1,17 @@
+{
+  "name": "simple-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "npx autocannon -d 30 -c 500 --renderStatusCodes --workers 10 --warmup [ -c 1 -d 2 ] --latency localhost:3000"
+  },
+  "keywords": [],
+  "author": "erickwendel",
+  "license": "ISC",
+  "devDependencies": {
+    "autocannon": "^7.8.1"
+  }
+}
